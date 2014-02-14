@@ -11,23 +11,46 @@ function loginCtrl($scope, $location){
     }
 
     $scope.accel = function() {
-        navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
         //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+        var options = { frequency: 500 };   //has to be between 40 ms and 1000 ms on iphone
+        navigator.accelerometer.getCurrentAcceleration(onSuccess, onError, options);
     };
-    var counter;
+    var counter = 0;
 
+
+    function stopWatch() {
+        if (watchID) {
+            navigator.accelerometer.clearWatch(watchID);
+            watchID = null;
+        }
+    }
+
+    // onSuccess: Get a snapshot of the current acceleration
+    //
     function onSuccess(acceleration) {
-        counter ++;
-        alert('Acceleration X: ' + acceleration.x + '\n' +
-            'Acceleration Y: ' + acceleration.y + '\n' +
-            'Acceleration Z: ' + acceleration.z + '\n' +
-            'Timestamp: '      + acceleration.timestamp + '\n');
-        console.log(counter);
-    };
+        var element = $("#$mongo");
+        counter++;
+        element.html = 'Acceleration X: ' + acceleration.x + '<br />' +
+            'Acceleration Y: ' + acceleration.y + '<br />' +
+            'Acceleration Z: ' + acceleration.z + '<br />' +
+            'Timestamp: '      + acceleration.timestamp + '<br />';
+        if (counter > 10) {
+            stopWatch();
+        }
+    }
 
+    function stopWatch() {
+        //if (watchID) {
+            navigator.accelerometer.clearWatch(watchID);
+          //  watchID = null;
+        //}
+    }
+
+    // onError: Failed to get the acceleration
+    //
     function onError() {
         alert('onError!');
-    };
+    }
 
 
 

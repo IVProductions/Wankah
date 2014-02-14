@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/accel.html" afterPath="$PROJECT_DIR$/app/partials/accel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/loginCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/loginCtrl.js" />
     </list>
     <ignored path="Wankah.iws" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="accel.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/accel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="58" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+            <state line="2" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -84,7 +83,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.9541985" vertical-offset="75" max-vertical-offset="600">
+            <state line="45" column="10" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.6946565" vertical-offset="402" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -120,9 +119,9 @@
         <option value="$PROJECT_DIR$/app/partials/menu.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/partials/login.html" />
-        <option value="$PROJECT_DIR$/app/partials/accel.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/partials/accel.html" />
         <option value="$PROJECT_DIR$/app/controllers/loginCtrl.js" />
       </list>
     </option>
@@ -409,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/accel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="52" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -451,9 +443,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/accel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.9541985" vertical-offset="75" max-vertical-offset="600">
+        <state line="45" column="10" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.6946565" vertical-offset="402" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
