@@ -33,8 +33,11 @@ function loginCtrl($scope, $location){
         */
         if (y > 10) {
             counter++;
+            wankString.text(counter);
         }
-        wankString.text(counter);
+        else {
+            wankString.text("Nooooo");
+        }
         if (counter > 20) {
             clearInterval(timer);
         }
