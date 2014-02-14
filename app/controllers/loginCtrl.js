@@ -21,12 +21,12 @@ function loginCtrl($scope, $location){
     // onSuccess: Get a snapshot of the current acceleration
     //
     function onSuccess(acceleration) {
-        var element = $("#$mongo");
+        var element = $("#mongo");
         counter++;
-        element.html = 'Acceleration X: ' + acceleration.x + '<br />' +
+        element.text('Acceleration X: ' + acceleration.x + '<br />' +
             'Acceleration Y: ' + acceleration.y + '<br />' +
             'Acceleration Z: ' + acceleration.z + '<br />' +
-            'Timestamp: '      + acceleration.timestamp + '<br />';
+            'Timestamp: '      + acceleration.timestamp + '<br />');
         if (counter > 10) {
             stopWatch();
         }

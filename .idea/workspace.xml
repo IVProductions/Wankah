@@ -82,7 +82,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.46564886" vertical-offset="87" max-vertical-offset="840">
+            <state line="28" column="67" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.8854962" vertical-offset="72" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -451,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.46564886" vertical-offset="87" max-vertical-offset="840">
+        <state line="28" column="67" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.8854962" vertical-offset="72" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
