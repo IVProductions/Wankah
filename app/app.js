@@ -9,7 +9,10 @@ Wanker.config(function ($routeProvider){
     }).when("/menu",{
         templateUrl:"app/partials/menu.html",
         controller:"loginCtrl"
-    }).otherwise({
+    }).when("/accel",{          //test accelerometer
+            templateUrl:"app/partials/accel.html",
+            controller:"loginCtrl"
+        }).otherwise({
         redirectTo:"/"
     })
 });
