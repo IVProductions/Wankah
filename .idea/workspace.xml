@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/loginCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wankah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="32" selection-start="734" selection-end="734" vertical-scroll-proportion="0.45801526" vertical-offset="210" max-vertical-offset="915">
+            <state line="26" column="24" selection-start="736" selection-end="736" vertical-scroll-proportion="0.45801526" vertical-offset="210" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -476,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="734" selection-end="734" vertical-scroll-proportion="0.45801526" vertical-offset="210" max-vertical-offset="915">
+        <state line="26" column="24" selection-start="736" selection-end="736" vertical-scroll-proportion="0.45801526" vertical-offset="210" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
