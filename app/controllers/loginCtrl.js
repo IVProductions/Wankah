@@ -33,6 +33,7 @@ function loginCtrl($scope, $location){
         }
         if (parseInt(counter) > 12) {
             clearInterval(timer);
+            navigator.notification.vibrate(2500);   //iphone will ignore the 2500 ms value and vibrate for an unknown default value of time
         }
     }
 
