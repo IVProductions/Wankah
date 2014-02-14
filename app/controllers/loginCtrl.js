@@ -24,13 +24,14 @@ function loginCtrl($scope, $location){
     function onSuccess(acceleration) {
         var element = $("#mongo");
         var y = acceleration.y;
+        element.text(parseInt(y));
         /*
         element.text("Acceleration X: " + acceleration.x + "\n" +
             "Acceleration Y: " + acceleration.y + "\n" +
             "Acceleration Z: " + acceleration.z + "\n" +
             "Timestamp: "      + acceleration.timestamp + "\n");
         */
-        if (parseInt(y) > parseInt(10)) {
+        if (parseInt(y) > 10) {
             counter++;
         }
         wankString.text(counter);
