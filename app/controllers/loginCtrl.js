@@ -13,6 +13,7 @@ function loginCtrl($scope, $location){
     var timer;
     var counter = 0;
     $scope.accel = function() {
+        $("#wankString").text(counter);
         timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 500);
     };
 
@@ -22,10 +23,10 @@ function loginCtrl($scope, $location){
     //
     function onSuccess(acceleration) {
         var element = $("#mongo");
-        element.text('Acceleration X: ' + acceleration.x + <br /> +
-            'Acceleration Y: ' + acceleration.y + <br /> +
-            'Acceleration Z: ' + acceleration.z + <br /> +
-            'Timestamp: '      + acceleration.timestamp + <br />);
+        element.text("Acceleration X: " + acceleration.x + "\n" +
+            "Acceleration Y: " + acceleration.y + "\n" +
+            "Acceleration Z: " + acceleration.z + "\n" +
+            "Timestamp: "      + acceleration.timestamp + "\n");
         if (acceleration.y > 20 || acceleration.y < -20) {
             counter++;
         }
