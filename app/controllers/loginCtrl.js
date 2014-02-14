@@ -12,8 +12,8 @@ function loginCtrl($scope, $location){
 
     $scope.accel = function() {
         //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
-        var options = { frequency: 500 };   //has to be between 40 ms and 1000 ms on iphone
-        navigator.accelerometer.getCurrentAcceleration(onSuccess, onError, options);
+        //var options = { frequency: 1000 };   //has to be between 40 ms and 1000 ms on iphone
+        navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
     };
     var counter = 0;
 
@@ -26,10 +26,11 @@ function loginCtrl($scope, $location){
         element.text('Acceleration X: ' + acceleration.x + '<br />' +
             'Acceleration Y: ' + acceleration.y + '<br />' +
             'Acceleration Z: ' + acceleration.z + '<br />' +
-            'Timestamp: '      + acceleration.timestamp + '<br />');
-        if (counter > 10000000) {
-            stopWatch();
-        }
+            'Timestamp: '      + acceleration.timestamp + '<br />' +
+            counter);
+        //if (counter > 10000000) {
+        //    stopWatch();
+        //}
     }
 
     function stopWatch() {
