@@ -22,6 +22,14 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <feature id="blackberry.system"  required="true" version="1.0.0.0" />
+    <feature id="org.apache.cordova" required="true" version="1.0.0" />
+    <key>Plugins</key>
+    <dict>
+        <key>Accelerometer</key>
+        <string>CDVAccelerometer</string>
+    </dict>
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET

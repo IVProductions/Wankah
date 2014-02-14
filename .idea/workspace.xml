@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="" />
+    <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+    </list>
     <ignored path="Wankah.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accel.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="32" selection-start="895" selection-end="895" vertical-scroll-proportion="0.47368422" vertical-offset="240" max-vertical-offset="1725">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accel.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/accel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="97" selection-start="112" selection-end="112" vertical-scroll-proportion="0.040650405" vertical-offset="0" max-vertical-offset="369">
+            <state line="1" column="58" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
@@ -97,11 +108,11 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/menu.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/loginCtrl.js" />
         <option value="$PROJECT_DIR$/app/partials/login.html" />
         <option value="$PROJECT_DIR$/app/partials/accel.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -386,23 +397,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="3679" selection-end="3679" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="19" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
@@ -423,7 +420,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/accel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="97" selection-start="112" selection-end="112" vertical-scroll-proportion="0.040650405" vertical-offset="0" max-vertical-offset="369">
+        <state line="1" column="58" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="32" selection-start="895" selection-end="895" vertical-scroll-proportion="0.47368422" vertical-offset="240" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>
