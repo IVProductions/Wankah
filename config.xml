@@ -29,6 +29,11 @@
         <key>Accelerometer</key>
         <string>CDVAccelerometer</string>
     </dict>
+    <!--><key>Plugins</key><!-->
+    <dict>
+        <key>Notification</key>
+        <string>CDVNotification</string>
+    </dict>
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -55,12 +60,7 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
     <!-- Plugins can also be added here. -->
-    <feature name="Accelerometer">
-        <param name="ios-package" value="CDVAccelerometer" />
-    </feature>
-    <feature name="Camera">
-        <param name="ios-package" value="CDVCamera" />
-    </feature>
+
     <!--
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
