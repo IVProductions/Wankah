@@ -39,7 +39,7 @@ function loginCtrl($scope, $location){
         else {
             wankString.text("Nooooo");
         }
-        if (counter > 20) {
+        if (y > 10) {
             clearInterval(timer);
         }
     }
