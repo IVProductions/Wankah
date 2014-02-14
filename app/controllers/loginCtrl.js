@@ -21,7 +21,7 @@ function loginCtrl($scope, $location){
     // onSuccess: Get a snapshot of the current acceleration
     //
     function onSuccess(acceleration) {
-        var wankString = $("#wankString").text()
+        var wankString = $("#wankString");
         var element = $("#mongo");
         counter++;
         element.text('Acceleration X: ' + acceleration.x + '<br />' +
@@ -30,9 +30,9 @@ function loginCtrl($scope, $location){
             'Timestamp: '      + acceleration.timestamp + '<br />' +
             counter);
         if (acceleration.y > 20) {
-            $("#wankString").text(wankString+"-");
+            $("#wankString").text(wankString.text()+"-");
         }
-        if (wankString.length > 40) {
+        if (wankString.text().length > 40) {
             clearInterval(timer);
         }
     }
