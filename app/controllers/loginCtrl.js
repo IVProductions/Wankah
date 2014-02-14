@@ -32,7 +32,7 @@ function loginCtrl($scope, $location){
             "Acceleration Z: " + acceleration.z + "\n" +
             "Timestamp: "      + acceleration.timestamp + "\n");
         */
-        if (y > 10) {
+        if (y > 20 || y < -20) {
             counter++;
             wankString.text(counter);
         }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="" />
+    <list default="true" id="2b74045c-25e7-4f68-9753-7f20c63b754c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/loginCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/loginCtrl.js" />
+    </list>
     <ignored path="Wankah.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,7 +82,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="34" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.648855" vertical-offset="360" max-vertical-offset="975">
+            <state line="34" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3816794" vertical-offset="360" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -474,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="34" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.648855" vertical-offset="360" max-vertical-offset="975">
+        <state line="34" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3816794" vertical-offset="360" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
