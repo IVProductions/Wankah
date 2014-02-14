@@ -14,7 +14,7 @@ function loginCtrl($scope, $location){
     var counter;
     $scope.accel = function() {
         counter = 0;
-        timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 1000);
+        timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 500);
     };
 
 
