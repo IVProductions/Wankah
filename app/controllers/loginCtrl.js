@@ -27,7 +27,7 @@ function loginCtrl($scope, $location){
             'Acceleration Y: ' + acceleration.y + '<br />' +
             'Acceleration Z: ' + acceleration.z + '<br />' +
             'Timestamp: '      + acceleration.timestamp + '<br />');
-        if (counter > 10) {
+        if (counter > 10000000) {
             stopWatch();
         }
     }
