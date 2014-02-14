@@ -18,13 +18,6 @@ function loginCtrl($scope, $location){
     var counter = 0;
 
 
-    function stopWatch() {
-        if (watchID) {
-            navigator.accelerometer.clearWatch(watchID);
-            watchID = null;
-        }
-    }
-
     // onSuccess: Get a snapshot of the current acceleration
     //
     function onSuccess(acceleration) {
