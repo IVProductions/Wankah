@@ -14,7 +14,6 @@ function loginCtrl($scope, $location){
     var counter;
     $scope.accel = function() {
         counter = 0;
-        $("#wankString").text(counter);
         timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 500);
     };
 
@@ -39,7 +38,7 @@ function loginCtrl($scope, $location){
         else {
             wankString.text("Nooooo");
         }
-        if (counter > 20) {
+        if (y) {
             clearInterval(timer);
         }
     }
