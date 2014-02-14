@@ -15,7 +15,7 @@ function loginCtrl($scope, $location){
     $scope.accel = function() {
         //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
         //var options = { frequency: 1000 };   //has to be between 40 ms and 1000 ms on iphone
-        timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 500);
+        timer = setInterval(function(){navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)}, 1000);
         //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
     };
 
