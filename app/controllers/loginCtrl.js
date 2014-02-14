@@ -22,15 +22,15 @@ function loginCtrl($scope, $location){
     //
     function onSuccess(acceleration) {
         var element = $("#mongo");
-        element.text('Acceleration X: ' + acceleration.x + '<br />' +
-            'Acceleration Y: ' + acceleration.y + '<br />' +
-            'Acceleration Z: ' + acceleration.z + '<br />' +
-            'Timestamp: '      + acceleration.timestamp + '<br />');
+        element.text('Acceleration X: ' + acceleration.x + <br /> +
+            'Acceleration Y: ' + acceleration.y + <br /> +
+            'Acceleration Z: ' + acceleration.z + <br /> +
+            'Timestamp: '      + acceleration.timestamp + <br />);
         if (acceleration.y > 20 || acceleration.y < -20) {
             counter++;
         }
         wankString.text(counter);
-        if (counter > 40) {
+        if (counter > 20) {
             clearInterval(timer);
         }
     }
