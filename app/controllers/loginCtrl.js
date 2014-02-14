@@ -27,7 +27,7 @@ function loginCtrl($scope, $location){
         var y = parseInt(acceleration.y);
         element.text(y);
 
-        if (y > 20 || y < -20) {
+        if (y > 15 || y < -15) {
             counter++;
             wankString.text(counter);
         }
