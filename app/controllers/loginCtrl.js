@@ -11,8 +11,8 @@ function loginCtrl($scope, $location){
     }
 
     $scope.accel = function() {
-        //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
         navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+        //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
     };
     var counter;
 
@@ -28,4 +28,7 @@ function loginCtrl($scope, $location){
     function onError() {
         alert('onError!');
     };
+
+
+
 }

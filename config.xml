@@ -58,7 +58,9 @@
     <feature name="Accelerometer">
         <param name="ios-package" value="CDVAccelerometer" />
     </feature>
-
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
     <!--
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
