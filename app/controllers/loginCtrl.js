@@ -26,20 +26,12 @@ function loginCtrl($scope, $location){
         var wankString = $("#wankString");
         var y = parseInt(acceleration.y);
         element.text(y);
-        /*
-        element.text("Acceleration X: " + acceleration.x + "\n" +
-            "Acceleration Y: " + acceleration.y + "\n" +
-            "Acceleration Z: " + acceleration.z + "\n" +
-            "Timestamp: "      + acceleration.timestamp + "\n");
-        */
+
         if (y > 20 || y < -20) {
             counter++;
             wankString.text(counter);
         }
-        else {
-            wankString.text("Nooooo");
-        }
-        if (parseInt(counter) > 20) {
+        if (parseInt(counter) > 12) {
             clearInterval(timer);
         }
     }
